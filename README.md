@@ -12,7 +12,8 @@
 ```sh
 python app.py
 ```
-The app will be running at http://127.0.0.1:5000/get_max_profit_API
+The app will be running at http://127.0.0.1:5000/
+
 4. Now you can pass the JSON input data in two ways.
  
 #### Method 1: Pass the data via command line using curl.
