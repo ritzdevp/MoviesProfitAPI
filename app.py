@@ -27,7 +27,7 @@ def get_max_profit_API():
 	j = 0
 	count = 0
 	for i in range(1, len(sortedByEnd)):
-		if (sortedByEnd[i].start >= sortedByEnd[j].end):
+		if (sortedByEnd[i].start > sortedByEnd[j].end):
 			pickedMovies.append(sortedByEnd[j].name)
 			count = count + 1
 			j = i
