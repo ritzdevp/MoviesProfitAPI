@@ -23,7 +23,7 @@ curl -d '{"Bala": {"name": "Bala", "start": "0108", "end": "0128"}, "Rock": {"na
 #### Method 2: Pass the data via a JSON POST/GET tool for example Insomnia or Postman. Below is a screenshot of passing JSON data request via Insomnia and getting the response back.
 #
 ### Note:
-In the JSON input, enter start and end dates as a string. For example, if the start date is 30 Jan then declare "start":"0130" (month, then day)
+### In the JSON input, enter start and end dates as a string. For example, if the start date is 30 Jan then declare "start":"0130" (month, then day)
 
 
 ![alt text](https://github.com/ritzdevp/MoviesProfitAPI/blob/master/ssinsomnia.png)
