@@ -35,10 +35,10 @@ def get_max_profit_API():
 			count = count + 1
 			j = i
 	pickedMovies.append(sortedByEnd[j].name)
+	count = count + 1
 	j = 0
 	return jsonify(Movies = pickedMovies, MaxProfit = count)
 
 
 if (__name__ == "__main__"):
 	app.run(debug = True)
-	
