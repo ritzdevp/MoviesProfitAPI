@@ -7,7 +7,7 @@
 
 0. Ensure Python is installed.
 1. Download the code from https://github.com/ritzdevp/MoviesProfitAPI
-2. cd into MoviesProfitAPI. 
+2. cd into MoviesProfitAPI-master. 
 3. In the command line type and enter 
 ```sh
 python app.py
