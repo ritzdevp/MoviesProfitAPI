@@ -18,4 +18,12 @@ def get_max_profit_API():
 	def compareEnds(movieA, movieB):
 		return movieA.end - movieB.end
 
-	
+	jsonInfo = request.json
+	moviesList = []
+	for key, value in jsonInfo.items():
+		temp = MovieInfo(jsonInfo[key]["name"], int(jsonInfo[key]["start"]), int(jsonInfo[key]["end"]))
+		moviesList.append(temp)
+
+	sortedByEnd = sorted(moviesList, key = functools.cmp_to_key(compareEnds))
+
+	pickedMovies = []
